@@ -80,11 +80,11 @@
 
                 </dependencies>
                 <configuration>
-                    <complianceLevel>9</complianceLevel>
-                    <source>9</source>
-                    <target>9</target>
+                    <complianceLevel>8</complianceLevel>
+                    <source>8</source>
+                    <target>8</target>
                     <additionalCompilerArgs>
-                        <arg>--module-path</arg>
+                        <arg>-classpath</arg>
                         <arg>${project.build.directory}/alternateLocation/slf4-api.jar</arg>
                     </additionalCompilerArgs>
 
